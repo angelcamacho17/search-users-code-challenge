@@ -1,28 +1,32 @@
-# SearchUsersCodeChallenge
+# **Search Users Code Challenge**
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.3.
+## **Project Overview**
 
-## Development server
+This project is a **Search Users Code Challenge** developed using **Angular**. The application allows users to search and display a list of users fetched from a public API. It utilizes **Reactive Forms** for search functionality, and the results are displayed in a responsive card layout. The project also includes tests to ensure proper functionality.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### **Features**
+- Fetches user data from the [JSONPlaceholder API](https://jsonplaceholder.typicode.com/users).
+- Displays the users' names and emails in a responsive card layout.
+- Implements a search functionality using Reactive Forms, allowing users to filter users by name.
+- Ensures that if the card content overflows, it shows an ellipsis.
+- Unit tests for verifying the application's behavior.
 
-## Code scaffolding
+---
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## **Technologies Used**
 
-## Build
+- **Angular**: Frontend framework used to build the application.
+- **Bootstrap**: For responsive design and layout of the cards.
+- **Reactive Forms**: For managing and handling form inputs and validation.
+- **Karma & Jasmine**: Used for running unit tests in the development environment.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+---
 
-## Running unit tests
+## **Setup Instructions**
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+To get the project up and running on your local machine, follow these steps:
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-# search-users-code-challenge
+### **1. Clone the Repository**
+```bash
+git clone https://github.com/yourusername/search-users-code-challenge.git
+cd search-users-code-challenge
