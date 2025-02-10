@@ -1,0 +1,17 @@
+.card {
+    height: auto; 
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body {
+    overflow: hidden; 
+    flex-grow: 1; 
+}
+
+.card-title,
+.card-text {
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+}
